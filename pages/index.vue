@@ -46,6 +46,13 @@ export default Vue.extend({})
   color: #e2e0e8;
 }
 
+
+.links {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .title {
   font-family:
     'Quicksand',
