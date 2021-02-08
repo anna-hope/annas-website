@@ -39,7 +39,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
-    '@nuxtjs/color-mode'
+    // '@nuxtjs/color-mode'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
