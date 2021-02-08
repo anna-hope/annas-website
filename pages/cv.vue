@@ -1,6 +1,5 @@
 <template>
 
-<div class="container">
 <div class="resume">
 <h1>anna melnikov</h1>
 <span class="c4 c1">Machine Learning engineer with a
@@ -37,9 +36,8 @@ and their clients.</span>
          class="button--grey">full cv</a>
         <a 
            href="/"
-           class="button--grey">home</a>
+           class="button--blue">home</a>
       </div>
-</div>
 </div>
 </template>
 
@@ -51,15 +49,16 @@ export default Vue.extend({})
 
 <style>
 
-.container {
+.resume {
   margin: 0 auto;
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
+  justify-content: center; 
   align-items: center;
   text-align: left;
   color: #000;
   font-size: 20px;
+  margin-top: 15px;
+  margin-left: 20px;
 }
 
 

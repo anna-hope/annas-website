@@ -29,12 +29,14 @@ body {
 }
 
 
+/* 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
 }
+*/ 
 
 .button--green {
   display: inline-block;
