@@ -9,7 +9,7 @@
       <div class="links">
         <NuxtLink to="/cv" class="button--grey">cv</NuxtLink>
         <a
-          href="https://github.com/notnami"
+          href="https://github.com/anna-hope"
           target="_blank"
           rel="noopener noreferrer"
           class="button--grey"
