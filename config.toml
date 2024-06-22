@@ -1,34 +1,206 @@
 # The URL the site will be built for
 base_url = "https://annahope.me"
 
+author = "Anna Hope"
 title = "Anna Hope"
 description = "Anna Hope's Website"
+theme = "abridge"
 
+default_language = "en"
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
+minify_html = false
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
 generate_feeds = true
 feed_filenames = ["atom.xml", "rss.xml"]
-
-author = "Anna Hope"
-
-[markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = true
-
-[extra]
-# Put all your custom variables here
-
-[languages.ru]
-generate_feeds = true
-build_search_index = true
 taxonomies = [
-    {name = "теги"},
+    {name = "tags", feed = true},
 ]
 
-[languages.ru.translations]
-summary = "Сайт Ани Хоуп"
+[search]                # Options specific to elasticlunr search.
+# index format can be: elasticlunr_json or elasticlunr_javascript
+index_format = "elasticlunr_json"
+include_title = true        # include title of page/section in index
+include_description = true # include description of page/section in index
+include_content = true      # include rendered content of page/section in index
+# truncate_content_length = 100 # Truncate at nth character. May be useful if index is getting too large.
+
+
+[markdown]
+highlight_code = true
+highlight_theme = "css"
+render_emoji = false
+external_links_target_blank = true # rel="noopener"
+external_links_no_follow = false   # rel="nofollow"
+external_links_no_referrer = false # rel="noreferrer"
+smart_punctuation = false          # `...` to `…`, `"quote"` to `“curly”` etc
+
+#[languages.ru]
+#title = "Аня Хоуп"
+#description = "Личный сайт Ани Хоуп (Anna Hope)"
+#generate_feeds = true
+#build_search_index = true
+#search.include_title = true # include title of page/section in index
+#search.include_description = true # include description of page/section in index
+#search.include_content = true # include rendered content of page/section in index
+#taxonomies = [
+#    {name = "теги", feed = true},
+#]
+#
+#[languages.ru.translations]
+#summary = "Сайт Ани Хоуп"
+
+
+[extra]
+###############################################################################
+### Layout & Format
+### position: top, bottom, both, false(hidden)
+### size: s150, s140, s130, s120, s110, s95, s90, s85, s80, s75, s70, false(full size)
+### divider:    " "        "&middot;"        "&bull;"
+###############################################################################
+
+menu = [
+#    {url = "blog", name = "Blog", slash = true, blank = false, size="s110"},
+    {url = "about", name = "About", slash = true, blank = false, size="s110"},
+    {url = "archive", name = "Posts", slash = true, blank = false, size="s110"},
+#    {url = "categories", name = "Categories", slash = true, blank = false, size="s110"},
+    {url = "tags", name = "Tags", slash = true, blank = false, size="s110"},
+]
+menu_footer = [
+    {url = "about", name = "About", slash = true, blank = false},
+    {url = "contact", name = "Contact", slash = true, blank = false},
+    {url = "privacy", name = "Privacy", slash = true, blank = false},
+    {url = "sitemap.xml", name = "Sitemap", slash = false, blank = true},
+]
+
+toc = true
+recent = true # TOC / index
+recent_items = 15
+series = true
+series_items = 9 # Max number of items to display in series list, use 0 to disable
+#Series_parts = "$NUMBER_OF_PARTS part Series"
+
+meta_index = { position="bottom", size="s90", author=false, readtime=false, readstring="min", date=true, updated=false, categories_tags=true, divider="" }
+meta_post = { position="top", size="s95", author=true, readtime=false, readstring="min read", date=true, updated=true, categories_tags=true, divider="" }
+
+hide_section_dates = false # hides the date for sections that use posts.html as their template.
+hide_page_nextprev_titles = false # hides the next/previous titles for pages that use page.html as their template.
+title_size_index = "s85"
+footer_size = "s90"
+footer_credit = true
+#footer_credit_override = '<p class="s90">Powered by <a href="https://www.getzola.org/" target="_blank">Zola</a> &#38; <a href="https://github.com/Jieiku/abridge/" target="_blank">Abridge</a></p>'
+#archive_reverse = true # Set to True to sort posts chronologically per year instead of newest first on the archive page: example.com/archive/
+
+### Uncomment one of the below lines, or neither, depending on which type of logo you want to use:
+#logo = { file="logo.svg", width="32", height="32", alt="Abridge", text="bridge" }
+#textlogo = '<font color="#f90">A</font>bridge'
+textlogo = '<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#f90" viewBox="0 0 96 96" width="28" height="28"><path stroke-width="14" d="M14 99 46 7h4l32 92"/><path stroke-width="9" d="M-3 82c43-26 59-26 102 0"/><path stroke-linecap="round" stroke-width="1.5" d="M94 72v7m-5-9.8v7m-5-9.8v7.1M79 64v7M63 57.7v7m-5-8.2v7m-5-7.8v7m-5-7.2v7m-5-6.7v7m-5-6.3v7m-5-5.8v7M17 64v7m-5-4.6v7m-5-4.2v7M2 72v7"/></svg>bridge'
+
+sitedesc = false # enables or disables the display of the site description below the logo.
+headhr = false # show or hide horizontal rule below header
+foothr = true # show or hide horizontal rule above footer
+
+### $CURRENT_YEAR and $SITE_TITLE can be used anywhere within the copyright, you can change their position or you can also delete them and type whatever you want instead.
+#copyright = false # set to false to disable the copyright.
+#copyright_override = '© 2019-$CURRENT_YEAR $SITE_TITLE'
+#copyright_override = '© $CURRENT_YEAR $SITE_TITLE • Website content is licensed <a rel="noopener" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.'
+
+
+###############################################################################
+### meta/seo/analytic tags
+### To disable title_addition but keep built in page additions eg, Posts page: "Posts | Abridge" set title_addition to an empty string
+### To always set the page title exactly eg "Abridge" then comment out title_addition or set to false (not recommend, bad for SEO)
+###############################################################################
+
+title_separator = "|"  # Separator between title and title_addition, set as |, -, _, etc
+title_addition = "Fast & Lightweight Zola Theme" # a default value for title addition
+author = "Jake G" # Put Your Name here
+keywords = "Abridge, Abridge.css, Zola, Theme, Zola Theme, getzola, Semantic Html, Fast, lightweight" # used for the primary site index
+banner = "banner.png" # Used as default image for OpenGraph/Twitter if page specific image is undefined.
+twitter_meta = "your-user-name" # for SEO: twitter:site and twitter:creator
+google = "Your Google Site verification code."
+bing = "Your Bing Site verification code."
+seo = true  # enable or disable seo-related meta tags: opengraph, facebook, twitter
+#dev = false # development mode, if true then robots.txt should prevent search indexing.
+
+
+###############################################################################
+### Footer social links; these are used in macros/social.html
+###   https://github.com/Jieiku/abridge/blob/master/templates/macros/social.html
+###############################################################################
+
+feed = true # this adds the RSS feed icon in the footer.
+mail = "name@example.com"
+mastodon = "https://mastodon.example.com/@username"
+element = "matrix.example.com"
+buymeacoffee = "your-user-name"
+kofi = "your-user-name"
+discord = "your-discord" # Everything after https://discord.com/   eg: invite/my-server  *or*  servers/my-server-id
+twitter = "your-user-name"
+facebook = "your-user-name"
+linkedin = "your-user-name"
+gitlab = "your-user-name"
+github = "your-user-name"
+codeberg = "your-user-name" # Everything after https://codeberg.org/   eg: username  *or*  username/repository
+github_sponsor = "your-user-name"
+bitbucket = "your-user-name"
+python = "your-user-name"
+docker = "your-user-name"
+stack = "your-user-name"
+instagram = "your-user-name"
+#pixelfed = "https://pixelfed.example.com/" # Heaviest icon, off by default
+pinterest = "your-user-name"
+twitch = "your-user-name"
+youtube = "channel/your-channel-id"
+peertube = "https://peertube.example.com/@username"
+researchgate = "your-profile-id"
+
+
+###############################################################################
+### Commenting System for visitors to leave comments on pages.
+###   hyvor talk
+###############################################################################
+
+#comments.hyvor = "9366" # hyvor website id, comment out to disable.
+#comments.hyvorcolor = "os" # set the color property for hyvor
+
+
+###############################################################################
+### Resource Files
+### You can load extra css files if you need to, just separate by comma:
+### stylesheets = [ "abridge.css", "extra.css" ]
+### search_library, library to use. valid values:
+###   false, "elasticlunr", "tinysearch", "stork"
+### offline: implies uglyurls=true and integrity=false, when true NPM/node will
+###   automatically set the path for the base_url, it will build the site,
+###   then set the base_url back to what it was. This is a way to build a completely
+###   offline site, a feature not possible with Zola alone.
+###   The PWA feature is another way to build an offline site, so there are now two
+###   different ways to build an offline site with Abridge.
+###
+### For most people the value of online_url will be the same as base_url.
+###   online_url is used to restore the base_url after generating an Offline site.
+###   When you set offline = true and run the npm script, the base_url is set to the absolute path on disk.
+###   Once you set offline = false, the base_url will be set back to the value of online_url when you run the npm script again.
+###############################################################################
+
+# do NOT include a trailing slash on the online URL
+#online_url = "https://abridge.netlify.app"
+online_indexformat = "elasticlunr_json"# used to restore your preferred index format when offline = false
+offline = false # implies uglyurls=true and integrity=false, when true NPM/node will automatically set the path for the base_url, it will build the site, then set the base_url back to what it was.
+
+uglyurls = false # if set to true then links are generated with the full path. eg https://abridge.netlify.app/index.html
+integrity = true # increases site security, should normally be true. (setting to false is useful during js development)
+js_bundle = true # multiple javascript files combined into a single file (setting to false is useful during js development)
+
+js_copycode = true # The copy button on code blocks that allows you to copy them to the clipboard.
+js_email_encode = true # obfuscates email address in footer
+js_prestyle = true # used to preload: FontAwesome, Katex, external Google Fonts
+js_switcher = true # The button that allows manually changing between light/dark mode.
+js_switcher_default = "dark" # default nojs switcher mode: dark, light (make sure to also set $switcherDefault in abridge.scss)
+
+search_library = 'elasticlunr'
+stylesheets = ["abridge.css"]
