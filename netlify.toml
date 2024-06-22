@@ -1,0 +1,16 @@
+[build]
+  publish = "public"
+  command = "zola build"
+
+[build.environment]
+  ZOLA_VERSION = "0.19.0"
+
+[context.deploy-preview]
+  command = "zola build --base-url $DEPLOY_PRIME_URL"
+
+[dev]
+  command = "zola serve"
+  port = 8888
+  targetPort = 1111
+  publish = "public"
+  framework = "#custom"
