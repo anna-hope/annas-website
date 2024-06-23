@@ -13,8 +13,8 @@ minify_html = false
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
-generate_feeds = true
-feed_filenames = ["atom.xml", "rss.xml"]
+generate_feed = true
+#feed_filenames = ["atom.xml", "rss.xml"]
 taxonomies = [
     {name = "tags", feed = true},
 ]
@@ -114,11 +114,11 @@ foothr = true # show or hide horizontal rule above footer
 ###############################################################################
 
 title_separator = "|"  # Separator between title and title_addition, set as |, -, _, etc
-title_addition = "Fast & Lightweight Zola Theme" # a default value for title addition
-author = "Jake G" # Put Your Name here
-keywords = "Abridge, Abridge.css, Zola, Theme, Zola Theme, getzola, Semantic Html, Fast, lightweight" # used for the primary site index
+title_addition = "" # a default value for title addition
+author = "Anna Hope" # Put Your Name here
+keywords = "Anna Hope, Rust, Python, Zola" # used for the primary site index
 banner = "banner.png" # Used as default image for OpenGraph/Twitter if page specific image is undefined.
-twitter_meta = "your-user-name" # for SEO: twitter:site and twitter:creator
+#twitter_meta = "your-user-name" # for SEO: twitter:site and twitter:creator
 google = "Your Google Site verification code."
 bing = "Your Bing Site verification code."
 seo = true  # enable or disable seo-related meta tags: opengraph, facebook, twitter
