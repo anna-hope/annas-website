@@ -4,9 +4,9 @@
 
   /// Enable a centered viewport for <header>, <main>, <footer> inside <body>
   /// Fluid layout until a defined size, then becomes centered viewport.
-  //$enable-maxwidth: true,
-  $mw: 70%,// max-width
-  //$mb: 1200px,// value at which to switch from fluid layout to max-width
+  $enable-maxwidth: true,
+  $mw: 30%,// max-width
+  $mb: 1000px,// value at which to switch from fluid layout to max-width
 
   $abridgeMode: "switcher",//valid values: switcher, auto, dark, light
   $syntax-mode: "auto",// Force syntax mode: auto, dark, light
@@ -18,7 +18,7 @@
   $syntax: true,//syntax highlighting for Code Blocks.
 
   $enable-icons: true,// false disables ALL icons
-  $ic: false,// true for colorized icons, otherwise #888 is used.
+  $ic: true,// true for colorized icons, otherwise #888 is used.
 
   $icon-rss: true,
   $icon-mail: true,// e-mail
@@ -75,10 +75,10 @@
   /// The colors below can be overrided individually as needed.
 
   /// Dark Colors
-  //$f1d: #ccc,// Font Color Primary
-  //$f2d: #ddd,// Font Color Headers
-  //$c1d: #111,// Background Color Primary
-  //$c2d: #222,// Background Color Secondary
+  $f1d: #bbeeff,// Font Color Primary
+  $f2d: #bf8bff,// Font Color Headers
+//   $c1d: #111,// Background Color Primary
+//   $c2d: #222,// Background Color Secondary
   //$c3d: #333,// Table Rows, Block quote edge, Borders
   //$c4d: #777,// Disabled Buttons, Borders, mark background
   //$a1d: #f90,// link color
@@ -91,7 +91,7 @@
   /// Light Colors
   //$f1: #333,// Font Color Primary
   //$f2: #222,// Font Color Headers
-  //$c1: #fff,// Background Color Primary
+  $c1: #fdfdfd,// Background Color Primary
   //$c2: #eee,// Background Color Secondary
   //$c3: #ddd,// Table Rows, Block quote edge, Borders
   //$c4: #555,// Disabled Buttons, Borders, mark background
