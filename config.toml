@@ -70,7 +70,7 @@ menu = [
     {url = "tags", name = "tags", slash = true, blank = false, size="s110"},
 ]
 menu_footer = [
-    {url = "about", name = "about", slash = true, blank = false},
+#    {url = "about", name = "about", slash = true, blank = false},
     {url = "sitemap.xml", name = "sitemap", slash = false, blank = true},
 ]
 
