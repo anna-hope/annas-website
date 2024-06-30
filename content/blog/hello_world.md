@@ -94,6 +94,8 @@ for me to get started.
 
 I hope this one lasts longer than the previous ones.
 
+<small>Huge thanks to Hunter *(themagicruby on most social media)* for designing the logo.</small>
+
 <hr>
 
 [^1]: Not a platform for blogging, although some people did use it that way.
