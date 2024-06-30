@@ -1,0 +1,32 @@
+language_name = "русский" # Shown in language picker for multi-language sites.
+date_locale = "ru_RU"
+full_stop = "."  # Used at the end of a sentence.
+
+# Menu items should match the names in config.extra.menu
+Blog = "блог"
+About = "обо мне"
+Posts = "посты"
+Tags = "теги"
+Categories = "категории"
+Contact = "связаться со мной"
+Privacy = "приватность"
+Sitemap = "карта сайта"
+
+Search = "поиск"
+Updated = "обновлено"
+Index = "индекс"
+Recent = "недавнее"
+Powered_by = "Powered by"
+and = "и"
+more = "далее" # "...more" read more links
+series_parts = "серии" # $NUMBER_OF_PARTS Part Series : 10 Part Series
+
+### © $CURRENT_YEAR $SITE_TITLE • Website content is licensed <a rel="noopener" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+copyright_override = '© $CURRENT_YEAR $SITE_TITLE • Website content is licensed <a rel="noopener" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.'
+
+### Page not found, maybe moved or not in this language
+404_not_found = "Страница не найдена, возможно она была перемещена, или её нет на этом языке"
+### Try searching or
+404_try_search = "Попробуйте поискать или"
+### go to homepage
+404_go_home = "перейти домой"
