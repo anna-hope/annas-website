@@ -4,7 +4,7 @@ sort_by = "date"
 template = "pages.html"
 +++
 
-### Hi!
+### hi!
 
 I'm Anna Hope (she/her), a software developer and sometimes writer based in *<US/Central>*.
 
