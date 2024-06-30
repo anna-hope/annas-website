@@ -84,7 +84,7 @@ admitted to the [Recurse Center,](https://www.recurse.com/) and decided I wanted
 to share my experience and keep myself accountable (more about RC to follow).
 
 So, here we are. I have a blog again. It's built with [Zola](https://www.getzola.org/) 
-and [Abridge](https://abridge.pages.dev/) and is (as it should be) static
+and [Abridge](https://abridge.pages.dev/) and is (as it should be) static,
 so should not go down unless something goes very wrong with Netlify or my domain. 
 I still plan on adding a Russian version because I do have ideas for blog posts in Russian, 
 which Zola/Abridge support, but I haven't
