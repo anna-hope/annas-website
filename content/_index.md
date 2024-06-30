@@ -6,8 +6,7 @@ template = "pages.html"
 
 ### Hi!
 
-I'm Anna Hope, a software developer and sometimes writer.
+I'm Anna Hope (she/her), a software developer and sometimes writer based in *<US/Central>*.
 
-
-
-
+I occasionally blog about software, technology, life, and other things. 
+You can see my posts by clicking one of the links above.
