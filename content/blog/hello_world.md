@@ -62,7 +62,7 @@ Eventually, it went down, and I didn't bother to start it up again.
 Between then and now, I had sometimes thought about starting a new blog, but 
 
 a) knew that as fun as it was at the time,
-I didn't want to build and manage it myself again and 
+I didn't want to build and manage it myself again, and 
 
 b) didn't feel I had anything interesting to share. 
 
