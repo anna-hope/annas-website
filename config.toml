@@ -47,11 +47,14 @@ smart_punctuation = false          # `...` to `…`, `"quote"` to `“curly”` 
 #search.include_description = true # include description of page/section in index
 #search.include_content = true # include rendered content of page/section in index
 #taxonomies = [
-#    {name = "теги", feed = true},
+#    {name = "tags", feed = true},
 #]
 #
 #[languages.ru.translations]
 #summary = "Сайт Ани Хоуп"
+#
+## Need this for menu items and other strings to show up translated
+#[languages.ru.extra]
 
 
 [extra]
@@ -63,15 +66,15 @@ smart_punctuation = false          # `...` to `…`, `"quote"` to `“curly”` 
 ###############################################################################
 
 menu = [
-    {url = "blog", name = "blog", slash = true, blank = false, size="s110"},
+    {url = "blog", name = "Blog", slash = true, blank = false, size="s110"},
 #    {url = "about", name = "About", slash = true, blank = false, size="s110"},
 #    {url = "archive", name = "Posts", slash = true, blank = false, size="s110"},
-#    {url = "categories", name = "categories", slash = true, blank = false, size="s110"},
-    {url = "tags", name = "tags", slash = true, blank = false, size="s110"},
+#    {url = "categories", name = "Categories", slash = true, blank = false, size="s110"},
+    {url = "tags", name = "Tags", slash = true, blank = false, size="s110"},
 ]
 menu_footer = [
 #    {url = "about", name = "about", slash = true, blank = false},
-    {url = "sitemap.xml", name = "sitemap", slash = false, blank = true},
+    {url = "sitemap.xml", name = "Sitemap", slash = false, blank = true},
 ]
 
 toc = true
