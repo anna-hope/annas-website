@@ -86,9 +86,9 @@ to share my experience and keep myself accountable (more about RC to follow).
 So, here we are. I have a blog again. It's built with [Zola](https://www.getzola.org/) 
 and [Abridge](https://abridge.pages.dev/) and is (as it should be) static,
 so should not go down unless something goes very wrong with Netlify or my domain. 
-I still plan on adding a Russian version because I do have ideas for blog posts in Russian, 
-which Zola/Abridge support, but I haven't
-fully figured it out, so that can happen later. There are also things I want to tweak in the design (Abridge
+I still plan on adding a Russian version because I do have ideas for blog posts in Russian — 
+which Zola/Abridge support, but I haven't fully figured it out, so that can happen later. 
+There are also things I want to tweak in the design (Abridge
 is great, but not everything in it is for me, which is okay). But it's here, and more than good enough 
 for me to get started.
 
