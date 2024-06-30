@@ -2,6 +2,7 @@
 base_url = "https://annahope.me"
 
 title = "Anna Hope"
+author = "Anna Hope"
 description = "Anna Hope's Website"
 theme = "abridge"
 

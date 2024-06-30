@@ -1,4 +1,4 @@
-# annas_website
+# Anna's Website
 
 deployed at https://annahope.me
 
@@ -6,19 +6,24 @@ deployed at https://annahope.me
 
 ## Build Setup
 
+### install dependencies
+- Zola: https://github.com/getzola/zola/releases/tag/v0.18.0
+
+Then
+
 ```bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
+yarn install
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+# serve with hot reload at localhost:1111
+```bash
+zola serve
+```
+
+# build for production 
+See `build` section in `netlify.toml`
+
+## Further reading
+
+- [Zola docs](https://www.getzola.org/documentation/getting-started/overview/)
+- [Abridge docs](https://abridge.pages.dev/overview-abridge/)
