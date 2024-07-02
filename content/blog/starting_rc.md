@@ -128,7 +128,8 @@ That I will have a great time, make friends, gain an amazing community, and grow
 - That things outside my control will somehow derail everything
 - That I don't fully know what the future holds after RC
 - A lot of FOMO about attending RC remotely while most of my batch-mates are in-person in Brooklyn. I'm far from the 
-only remote Recurser this batch, but still, there won't be any RC-based board games, yoga sessions, and completely 
+only remote Recurser this batch (and only one time zone away, unlike some others who are much farther!), 
+but still, there won't be any RC-based board games, yoga sessions, and completely 
 spontaneous interactions for me, and I'll have to make more effort to make myself feel "present"
 
 ## That's all for now!
