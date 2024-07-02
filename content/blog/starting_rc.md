@@ -39,9 +39,10 @@ That is exactly what RC aims to provide, and more — most importantly, a commun
 
 I first learned about RC several years ago from [Dan Luu's blog,](https://danluu.com/learning-to-program/) 
 went on its website, looked through the application, 
-and mentally filed it away under "Would be good to apply some time in the future."[^2] But the fact that the
-RC batches require a full-time commitment of 6 to 12 weeks (and that the application had multiple open-ended steps)
-stopped me. It didn't feel like the best time.
+and mentally filed it away under "Would be good to apply some time in the future."[^2] But the fact that
+RC batches require a full-time commitment of 6 to 12 weeks,
+meaning I would have to take a break from work, (and that the application had multiple open-ended steps) stopped me. 
+It didn't feel like the best time.
 
 Then, several months ago I discovered Nicole Tietz-Sokolskaya (awesome) [blog,](https://ntietz.com) which had a link
 to the RC application in the footer. And then, just over a month ago I was lucky enough to attend PyCon US, 
