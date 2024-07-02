@@ -40,7 +40,7 @@ That is exactly what RC aims to provide, and more — most importantly, a commun
 I first learned about RC several years ago from [Dan Luu's blog,](https://danluu.com/learning-to-program/) 
 went on its website, looked through the application, 
 and mentally filed it away under "Would be good to apply some time in the future."[^2] But the fact that
-RC batches require a full-time commitment of 6 to 12 weeks,
+RC batches require a full-time commitment of 6 or 12 weeks,
 meaning I would have to take a break from work, (and that the application had multiple open-ended steps) stopped me. 
 It didn't feel like the best time.
 
@@ -54,6 +54,13 @@ of years, in both work and life, the good and the difficult, helped realign me t
 fit now more than ever before.
 
 So I applied, and here we are!
+
+### Why 12 weeks?
+
+I originally planned to attend for only 6 weeks, but then increasingly felt that time would completely fly by
+(which some accounts of previous Recursers corroborate), so ended up confirming for 12 weeks instead. This decision
+caused challenges (I had to leave my current job and put future plans on hold, possibly missing out on some things), 
+but I hope it pays off in the long term.[^4]
 
 ## What I want to do
 
@@ -78,7 +85,7 @@ career, but much of their inner workings have remained a black box to me.
 I plan on starting with the [Red Book](http://www.redbook.io/) and participating in my batch's database internals
 study group.
 - Learn Zig, because I enjoy learning programming languages, and I think that Zig, with its
-first-class C-interop would be a good addition.[^4] I've connected with other Recursers who use Zig or want to learn
+first-class C-interop would be a good addition.[^5] I've connected with other Recursers who use Zig or want to learn
 more about it, and we might host a study group for it, too. To help get me started, 
 I thought I'd [try reimplementing](https://github.com/anna-hope/ziglox) 
 the bytecode interpreter from the (amazing) [Crafting Interpreters](https://craftinginterpreters.com/) in Zig.
@@ -110,7 +117,7 @@ to stay open to that, so most of the above is subject to change.
 
 ## Hopes
 
-That I will have a great time, make friends, and grow, professionally and personally.
+That I will have a great time, make friends, gain an amazing community, and grow, professionally and personally.
 
 ## Fears 
 
@@ -120,6 +127,11 @@ That I will have a great time, make friends, and grow, professionally and person
 - That I will not use that time effectively (whatever that means)
 - That things outside my control will somehow derail everything
 - That I don't fully know what the future holds after RC
+- A lot of FOMO about attending RC remotely while most of my batch-mates are in-person in Brooklyn. I'm far from the 
+only remote Recurser this batch, but still, there won't be any RC-based board games, yoga sessions, and completely 
+spontaneous interactions for me, and I'll have to make more effort to make myself feel "present"
+
+## That's all for now!
 
 If you got to the end, thank you for reading! 
 If you're interested in following my journey at RC and beyond, consider subscribing to [my feed!](/atom.xml)
@@ -143,7 +155,9 @@ underrepresented in programming circles. It really helped me feel like I would b
 [^3]: There are definitely worse time than others, though. I feel very privileged that I have the ability
 and resources (read: enough savings) to do this now.
 
-[^4]: Also, I have a character flaw in that I often internalize things I really like as part of my identity.
+[^4]: Again, I know that being able to do this is a very big privilege.
+
+[^5]: Also, I have a character flaw in that I often internalize things I really like as part of my identity.
 I noticed this was happening with how big a fan I became of Rust, to the point that Zig just *existing* in 
 a seemingly similar low-level, systems programming domain started to feel like it was threatening Rust's success,
 especially with posts like [this.](https://zackoverflow.dev/writing/unsafe-rust-vs-zig/) Learning Zig felt
