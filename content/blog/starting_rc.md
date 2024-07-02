@@ -3,7 +3,7 @@ title = "Starting a batch at the Recurse Center"
 description = "Notes, plans, hopes, and fears"
 slug = "starting-rc"
 date = "2024-07-01"
-draft = true
+draft = false
 
 [taxonomies]
 tags = ["rc", "programming"]
